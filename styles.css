@@ -1,0 +1,134 @@
+body,html{
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    color: #fff;
+    background-image: linear-gradient(to left bottom, rgb(14, 18, 22), rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.nav-title{
+    font-size: 1.5rem;
+    width: 200px;
+    padding-left: 20px;
+}
+.nav-lists{
+    display: flex;
+    align-content: flex-end;
+    list-style: none;
+    gap:10px;
+}
+.bg-video{
+    background-size: cover;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+.header-content{
+ max-width: 400px;
+ position: absolute;
+ right: 0;
+ left: 40px;
+ bottom: 0;
+}
+.header-content a {
+    text-decoration: none;
+    color: #fff;
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    flex:1;
+    margin-left: 60px;
+    align-items: center;
+}
+.card{
+    margin: 10px;
+    padding: 40px;
+   
+}
+.card:hover{
+    background: #efeeeb;
+    transform: translateY(0) skewY(0deg);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(10px) skewY(-3deg);
+
+}
+
+.card h6{
+    color: rgb(0,163,207);
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.card h4{
+    color: #231f20;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.card p{
+    color:#0e1216;
+    font-size: 14px;
+}
+.card a{
+    color: rgb(0,163,207);
+    font-size: 14px;
+    text-decoration: none;
+}
+.locations-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    position: relative;
+    width: 100%;
+    margin-left: 60px;
+}
+.locations-section:hover{
+    background: url(/assets/GlobalPageBroll_V2.mp4);
+    
+}
+.bg-cover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    background-color: #efeeeb;
+    background-size: cover;
+    transform: translate(10px, 10px) rotate(-2deg);
+}
+.locations-section h1{
+    position: absolute;
+    top: -100px;
+    right: 40px;
+    font-size:60px;
+    text-transform: uppercase;
+}
+.locations-section ul{
+    list-style: none;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.locations-section li{
+    font-size:76px ;
+}
